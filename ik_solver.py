@@ -11,7 +11,6 @@ def get_iks(position, orientation):
     Args:
         position (iterable): [x, y, z]
         orientation (pyquaternion): tooltip orientaiton
-        robot_name (str): robot name to call correct ik solver
 
     Returns:
        List of robot configuration, where robot configuration is list of joint
